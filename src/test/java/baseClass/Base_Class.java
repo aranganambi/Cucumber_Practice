@@ -63,16 +63,12 @@ public class Base_Class {
 	}
 
 	// browser_Launch_Chrome
-	
 	public static WebDriver browser_Launch_Chrome() {
 		
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			System.out.println("Chrome Launched Successfully");
-			return driver;
-			
-		
-
+			return driver;		
 	}
 
 	// browser_Launch_Firefox
