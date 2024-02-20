@@ -25,6 +25,7 @@ public class Data_Table_With_Examples_StepDefenition {
 	public void i_am_going_to_entering_following_credentials_and(String userName, String passWord) {
 		driver.findElement(By.id("email")).sendKeys(userName);
 	    driver.findElement(By.id("pass")).sendKeys(passWord);
+	    System.out.println("Credentials are sucessfully entered");
 	}
 	@When("I am going to clicking login button")
 	public void i_am_going_to_clicking_login_button() {
